@@ -1,0 +1,44 @@
+Functions:
+
+1.Resuability of the code
+2.Easy Debugging
+
+Function is a group of statements,
+it can perform one specific task.
+
+Function keyword def
+in python by using "def" keyword we can 
+perform the functions.
+
+Syntax:
+def function_name(argument_list):
+        statements
+return value.
+
+4 types of functions:
+1.with arguments and with return values
+2.with arguments and with out return values
+3.with out arguments and with return values
+4.with out arguments and with out return values
+
+1.function definition
+ def function_name(arguments)
+2.function calling
+ function_name(variable_name)
+
+1.with arguments and with return values
+def function_name(argument_list):
+    statements
+return value.
+
+to perform the addition of two numbers?
+n1=int(input("enter n1 value")) #step1 n1=10 n2=10
+n2=int(input("enter n2 value")) #step2
+def addition(a,b): #a=n1,b=n2   #step3
+    c=a+b          #c=10+10
+    return c       #c=20
+addition(n1,n2)    #function calling again step 3
+
+
+2.with arguments and with out return values
+
